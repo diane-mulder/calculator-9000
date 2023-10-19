@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Pixelify+Sans:wght@600&display=swap');
+
+:root {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ box-sizing: border-box;
+ text-align: center;
+ background-image: url(img/laque.jpg);
+}
+
+body {
+ font-size: 22px;
+ font-family: 'Kanit', sans-serif;
+}
+
+
+/* CALCULATOR */
+
+h1 {
+ font-family: 'Pixelify Sans', sans-serif;
+ font-size: 35px;
+ margin-top: 5px;
+ color: #050111;
+ text-shadow: 2px 2px 10px rgba(189, 7, 7, 0.5);
+ 
+}
+
+.app {
+ height: auto;
+ background: linear-gradient(to right, #241e1e, #8b7c7b, #1f1b1a);
+ padding: 10px 50px 50px 50px;
+ width: 30%;
+ margin: auto;
+ border-radius: 15px;
+ border: 2px solid transparent;
+ box-shadow: 2px 10px 50px rgba(240, 13, 13, 0.5);
+}
+
+.buttons-row {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 10px;
+ margin-top: 10px;
+}
+
+.number-button {
+ margin: 5px;
+ padding: 5px;
+ font-size: 30px;
+ font-family: 'Kanit', sans-serif;
+ border-radius: 5px;
+ border: 2px solid transparent;
+ background: linear-gradient(to right, #740808, #120201, #b09d9a);
+ color: white;
+}
+
+.number-button:hover {
+ border-color: #10100f;
+}
+
+.operator-button {
+ padding: 5px;
+ margin: 5px;
+ font-size: 30px;
+ font-family: 'Kanit', sans-serif;
+ border-radius: 5px;
+ border: 2px solid transparent;
+ background: linear-gradient(to right, #0e0000, #363131, #080100);
+ color: white;
+}
+
+.operator-button:hover {
+ border-color: #03011a;
+}
+
+button.equal-button {
+ padding: 5px;
+ margin-top: 10px;
+ font-size: 30px;
+ font-family: 'Kanit', sans-serif;
+ border-radius: 10px;
+ border: 2px solid transparent;
+ background: linear-gradient(to right, #0e0000, #5d5353, #080100);
+ color: white;
+ grid-column: span 1;
+ width: 100%;
+}
+
+.equal-button:hover {
+ border-color: #eb8787;
+}
+
+.reset-button {
+ padding: 5px;
+ margin: 5px;
+ font-size: 30px;
+ font-family: 'Kanit', sans-serif;
+ border-radius: 5px;
+ border: 2px solid transparent;
+ background: linear-gradient(to right, #d60c0c, #f17777, #621407);
+ color: white;
+}
+
+.reset-button:hover {
+ border-color: #a9a3a3;
+}
+
+.result, .current-operation {
+ font-size: 30px;
+ color: white;
+}
+
+.screen {
+ padding: 15px;
+ background: linear-gradient(to right, #7e7979, #ebe2e2, #695f5e);
+ color: white;
+ text-align: right;
+ border: 1px solid transparent;
+ border-radius: 10px;
+ margin-bottom: 20px;
+}
+
+.over-9000 {
+
+ align-items: center;
+ 
+ margin-bottom: 10px;
+}
+
